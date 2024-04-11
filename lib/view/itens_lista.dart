@@ -345,6 +345,7 @@ class _Itens_ListaViewState extends State<Itens_ListaView> {
   }
 
   /// pesquisar itens na lista pelo nome
+  //Depois de pesquisar não consegue editar ou excluir, só muda o check box
   pesquisarItem(BuildContext context) async {
     setState(() {
       isSearching = true;
